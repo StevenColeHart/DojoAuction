@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Projects!</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body class="wrapper">
+        <div>
+            <h1>Current Auctions</h1>
+            <p>Hi @ViewBag.current_user.firstname</p>
+            <a href="/logout">Log Out</a>
+        </div>
+        <div class="container">
+        <table class="table">
+            <tr>
+                <th>Product</th>
+                <th>Seller</th>
+                <th>Top Bid</th>
+                <th>Time Remaining &#x25BC</th>
+            @{
+                foreach(var listing in @ViewBag.allAuctions){
+                    <tr>  
+                    <td><a href="/product/@listing.ProductId">@listing.name</a></td>
+                    <td>@listing.creator.firstname</td>
+                    <td>@listing.startingbid</td>
+                    <td>@listing.ending</td>
+                    </tr>
+                }
+            }
+           
+        </table>
+        <p>Current Wallet: @ViewBag.current_user.wallet</p>
+        <a href="/newproduct"><button>newAuction</button></a>
+        </div>
+    </body>
+</html>

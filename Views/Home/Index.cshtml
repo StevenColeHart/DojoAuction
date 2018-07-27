@@ -1,0 +1,48 @@
+﻿@model beltexam.Models.User
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Projects!</title>
+        <link rel="stylesheet" href="~/css/style.css"/>
+    </head>
+    <body class="wrapper">
+        <div class="container" >
+            <h2>Sign Up</h2>
+            <form class-"from-contorl" asp-action="register" method="POST">
+                <span asp-validation-for="username"></span>
+                <input class="form-control" placeholder="Username" asp-for="username">
+                <br>
+                <span asp-validation-for="firstname"></span>
+                <input class="form-control text-danger" placeholder="First Name" asp-for="firstname">
+                <br>
+                <span asp-validation-for="firstname"></span>
+                <input class="form-control text-danger" placeholder="Last Name" asp-for="lastname">
+                <br>
+                <span asp-validation-for="email"></span>
+                <input class="form-control" placeholder="Email" asp-for="email">
+                <br>
+                <span asp-validation-for="password"></span>
+                <input class="form-control" placeholder="Password" asp-for="password" type="password">
+                <br>
+                <span asp-validation-for="confirm_password"></span>
+                <input class="form-control" placeholder="Confirm" asp-for="confirm_password" type="password">
+                <br>
+                <button  btn btn-info>Submit</button>
+            </form>
+        </div>
+        <div class="container">
+            <h2>Login</h2>
+            <form action="login" method="POST">
+                <span asp-validation-for="email"></span>
+                <input class="form-control" placeholder="Email" asp-for="email" name="email_login">
+                <br>
+                <span asp-validation-for="email"></span>
+                <input class="form-control" placeholder="Password" asp-for="password" name="password_login">
+                <br>                
+                <button  btn btn-info>Submit</button>
+            </form>            
+        </div>
+    </body>
+</html>

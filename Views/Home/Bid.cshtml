@@ -1,0 +1,33 @@
+@model beltexam.Models.Bid
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Projects!</title>
+    </head>
+    <body class="wrapper">
+        <div>
+            <a href="/welcome">Home</a>           
+            <a href="/logout">Log Out</a>
+        </div>
+            <h2>@ViewBag.currentAuction.name</h2>
+            <p>Created by:@ViewBag.currentAuction.creator.firstname</p>
+            <p>Description:@ViewBag.currentAuction.description</p>
+            <p>Current Bid:$@ViewBag.currentAuction.startingbid</p>
+
+            <div class="container">
+                <form asp-action="placebid" method="POST">
+                    <label>Place Bid!</label>
+                    <input asp-for="highestbid">
+                    <button  btn btn-info>Submit</button>
+                </form>
+            </div>
+
+
+
+
+        </div>
+    </body>
+</html>

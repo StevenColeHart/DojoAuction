@@ -1,0 +1,11 @@
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\bin\Debug\netcoreapp2.0\beltexam.deps.json
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\bin\Debug\netcoreapp2.0\beltexam.runtimeconfig.json
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\bin\Debug\netcoreapp2.0\beltexam.runtimeconfig.dev.json
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\bin\Debug\netcoreapp2.0\beltexam.dll
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\bin\Debug\netcoreapp2.0\beltexam.pdb
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\obj\Debug\netcoreapp2.0\beltexam.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\obj\Debug\netcoreapp2.0\beltexam.csproj.CoreCompileInputs.cache
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\obj\Debug\netcoreapp2.0\beltexam.AssemblyInfoInputs.cache
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\obj\Debug\netcoreapp2.0\beltexam.AssemblyInfo.cs
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\obj\Debug\netcoreapp2.0\beltexam.dll
+C:\Users\Steven\Desktop\CodingDojo\CSharp\beltexam\obj\Debug\netcoreapp2.0\beltexam.pdb

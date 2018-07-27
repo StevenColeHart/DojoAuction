@@ -1,0 +1,34 @@
+@model beltexam.Models.Product
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Projects!</title>
+    </head>
+    <body class="wrapper">
+        <div>
+            <a href="/welcome">Home</a>           
+            <a href="/logout">Log Out</a>
+        </div>
+        <div class="container">
+            <h1>New Auction</h1>
+            <form asp-action="new" asp-controller="Home" method="POST">
+                <span asp-validation-for="name" class="text-danger"></span>
+                <label>Product Name</label>
+                <input class="form-control" asp-for="name">
+                <br>
+                <span asp-validation-for="description"></span>
+                <label>Description</label>
+                <input class="form-control text-danger" asp-for="description">
+                <br>
+                <label>Ending Date</label>
+                <input class="form-control" asp-for="ending" type="date">
+                <br>
+                <label>Starting Bid</label>
+                <input class="form-control" asp-for="startingbid">
+                <button  btn btn-info>Create Auction</button>
+            </form>
+        </div>
+    </body>
+</html>

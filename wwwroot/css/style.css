@@ -1,0 +1,40 @@
+/* .wrapper {
+
+
+} */
+.form-group{
+    width: 400px;
+    border-radius: 1ch;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 60px;
+    padding-bottom: 15px;
+    padding-top: 2px;
+
+}
+
+.form-group h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-group button{
+    border: 2px solid rgba(153, 23, 114, 0.6);
+    border-radius: .7ch;
+    width: 362px;
+    height: 40px;
+    background: rgba(207, 32, 155, 0.6);
+    color: white;
+    font-size: 20px;
+}
+
+.form-group input:hover{
+    border-color: #8f1f3b;
+    box-shadow: 0 0 8px rgba(207, 32, 155, 0.6);
+}
+
+h1 a{
+    margin-left: 800px;
+}
